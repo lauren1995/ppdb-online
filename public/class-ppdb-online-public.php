@@ -109,7 +109,9 @@ class Ppdb_Online_Public {
 	        $body.='
 	        	<tr>
 	        		<td>'.$metas['nickname'][0].'</td>
-	        		<td>magetan</td>
+	        	<td>'.$metas['Alamat'][0].'</td>
+				<td>'.$metas['Asal_Sekolah'][0].'</td>
+				<td>'.$metas['phone_number'][0].'</td>
 	        	</tr>
 	        ';
 	    }
@@ -119,6 +121,9 @@ class Ppdb_Online_Public {
 				<tr>
 					<th>Nama</th>
 					<th>Alamat</th>
+					<th>Asal Sekolah</th>
+					<th>No.Telp</th>
+					
 				</tr>
 			</thead>
 			<tbody>
